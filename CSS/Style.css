@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Nunito', sans-serif;
+}
+
+/* nav - mainly m-correction*/
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;  
+    font-family: 'Kanit', sans-serif;
+  }
+
+.navbar{
+    margin-left: 235px;
+}
+
+
+/* icon left */
+.logo-icon{
+    width: 50px;
+
+
+  }
+
+  /* search right */
+.search {
+  margin-right: 100px;
+ 
+}
+
+
+
+
+
+/* Rounded border */
+hr.rounded {
+    border-top: 10px solid #003087;
+    border-radius: 7px;
+    margin: 0;
+    padding: 0;
+  
+  }
+
+
+/* grid rows for products */
+.container{
+    margin: 50px;
+    padding: 0;
+}
+.card
+{ cursor: pointer;
+
+} 
+
+.card-item:hover{
+  transform: translateY(-10px);
+}
+
+ .card-item
+{
+    cursor: pointer;
+    background-position: center;
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px; 
+  }  
+
+  .card-img-top {
+    width: 100%;
+    height: 12vw;
+    object-fit: cover;
+    border-radius: 10px;
+} 
+
+
+
+/* console button section */
+
+.console-buttons{
+    position: absolute;
+    top: 26.5%;
+    left: 35%;
+    font-size: 18px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    min-width: 80px
+}
+
+.text-danger{
+    font-family: 'Kanit', sans-serif;
+}
+
+/* footer */
+
+footer a{
+    display: inline-block;
+    color:white ;
+    text-decoration: none;
+}
+
+.bi-i{
+    padding: 5px;
+    color: white;
+
+}
